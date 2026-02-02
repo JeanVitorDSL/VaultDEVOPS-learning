@@ -2,8 +2,8 @@
 
 Este repositório é um **vault de estudos estruturado para Obsidian**, focado em **DevOps, Sistemas Operacionais e Programação**, organizado no formato de **roadmap + notas conectadas**.
 
-O objetivo não é apenas armazenar conteúdo, mas criar um **sistema de aprendizado**, permitindo evolução contínua, revisões rápidas e visão clara do progresso técnico.
-
+O objetivo não é apenas armazenar conteúdo, mas criar um **sistema de aprendizado**, permitindo evolução contínua, revisões rápidas e visão clara do progresso técnico. 
+PS: Repósitorio em construção!
 ---
 
 ## 🎯 Objetivo do Repositório
