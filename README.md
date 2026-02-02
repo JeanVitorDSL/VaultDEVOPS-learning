@@ -22,27 +22,42 @@ A estrutura é baseada em **notas HUB** (mapas principais) que apontam para nota
 Exemplo de organização:
 
 Doc/
+
+├Doc/
+
 ├── DevOps Fundamentals/
+
 │ ├── 1 What should I study in general for DevOps.md
+
 │ ├── Agile & Team Work.md
+
 │ ├── APIs & Integration.md
+
 │ ├── Software Delivery & CI CD.md
+
 │ └── Version Control (Git).md
 │
-├── Operation System/
-│ ├── 1 All i need in Operating Systems.md
+├── Operating System/
+
+│ ├── 1 All I need in Operating Systems.md
+
 │ ├── Linux Fundamentals.md
+
 │ ├── Windows.md
+
 │ ├── FreeBSD.md
-│ └── IOS.md
+
+│ └── iOS.md
 │
 ├── Programming/
-│ ├── 1 I take Golang language for learning.md
-│ └── Data structure and algorithm.md
-│
-├── Ideology for studies.md
-└── My roadmap.canvas
 
+│ ├── 1 I chose Golang as my learning language.md
+
+│ └── Data Structures and Algorithms.md
+│
+├── Ideology for Studies.md
+
+└── My roadmap.canvas
 
 ---
 
