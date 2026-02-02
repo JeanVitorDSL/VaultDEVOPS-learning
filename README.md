@@ -1,3 +1,9 @@
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for details.
+
+
 # 📚 DevOps & Programming Study Vault (Obsidian)
 
 Este repositório é um **vault de estudos estruturado para Obsidian**, focado em **DevOps, Sistemas Operacionais e Programação**, organizado no formato de **roadmap + notas conectadas**.
