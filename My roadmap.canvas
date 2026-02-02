@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"58e0385820dbc56c","type":"text","text":"","x":680,"y":-120,"width":250,"height":60},
+		{"id":"d4dff0e34afa7806","type":"text","text":"# Why learn programming languages?\n\n---\nIt's necessary to use a programming language to work as a DevOps engineer, as it's a required hard skill and adds a lot to my career.","x":-80,"y":-430,"width":400,"height":400,"color":"5"},
+		{"id":"5a092a99f635e090","type":"text","text":"# How will I do my studies?\n[[How will i do my studies]]\n\n---\nBased on studies, creating a competent document based on summaries and key points, and always trying to apply it in practice, from labs to code, etc.","x":-840,"y":-430,"width":400,"height":400,"color":"#000000"},
+		{"id":"6a4263851e63005c","type":"text","text":"# Operating Systems.\n[[1 All i need in Operating Systems.]]\n\n---\nOperating systems are fundamental to learning, as almost all programs run on other operating systems. Furthermore, it's extremely important to understand that UNIX, Linux, and Windows are the platforms on which your code or project will run.","x":-840,"y":200,"width":400,"height":400,"color":"4"},
+		{"id":"d93719d6c23f07fb","type":"text","text":"# Start.\n[[Start]]\n\n---\nI made this roadmap to help me, and to have insane documentation in Obsidian to help me remember my ideas and studies. \nHow this map works?\n\n","x":-1440,"y":-920,"width":400,"height":400,"color":"#000000"},
+		{"id":"8411053736aa8583","type":"text","text":"# START HERE","x":-1365,"y":-1180,"width":250,"height":60,"color":"1"},
+		{"id":"4bf8b02f0dc5321b","type":"file","file":"Programming/1 I take Golang leanguage for loarning..md","x":580,"y":-430,"width":400,"height":400,"color":"5"},
+		{"id":"68510b15ce8c09ef","type":"text","text":"# What should I study in general for DevOps.\n[[1 What should I study in general for DevOps.]]\n\n---\nPrincipal fundamentals of DevOps engineers Hard Skilss i need. \n\n","x":-80,"y":200,"width":400,"height":400,"color":"6"},
+		{"id":"60ce3e33053eeb18","type":"text","text":"# Software Delivery & CI/CD.\n[[Software Delivery & CI CD]] \n\n---\n","x":1900,"y":200,"width":400,"height":400,"color":"6"},
+		{"id":"616713bba2d2b23d","type":"text","text":"# Version Control. (Git)\n[[Version Control (Git)]] \n\n---","x":2560,"y":200,"width":400,"height":400,"color":"6"},
+		{"id":"afa8d1b9c4b1c0c3","type":"text","text":"# Agile & Team Work.\n[[Agile & Team Work]]\n\n---\n","x":580,"y":200,"width":400,"height":400,"color":"6"},
+		{"id":"8b5bf0b7c2410192","type":"text","text":"# APIs & Integration.\n[[APIs & Integration]]\n\n---\n","x":1220,"y":200,"width":400,"height":400,"color":"6"},
+		{"id":"f14ab3dbb2ea362b","type":"text","text":"# Data structure nd algorithm in Golang.\n[[Data structure and algorithm in Golang]]\n\n---\n\n","x":1220,"y":-430,"width":400,"height":400,"color":"5"}
+	],
+	"edges":[
+		{"id":"4a736f52f16c7ab1","fromNode":"d4dff0e34afa7806","fromSide":"right","toNode":"4bf8b02f0dc5321b","toSide":"left"},
+		{"id":"8011e8a1fa577c31","fromNode":"d93719d6c23f07fb","fromSide":"right","toNode":"5a092a99f635e090","toSide":"left"},
+		{"id":"bcb2da01331768db","fromNode":"5a092a99f635e090","fromSide":"right","toNode":"d4dff0e34afa7806","toSide":"left"},
+		{"id":"045e240a7b6f92f0","fromNode":"5a092a99f635e090","fromSide":"bottom","toNode":"6a4263851e63005c","toSide":"top"},
+		{"id":"26c612720ecfa544","fromNode":"8411053736aa8583","fromSide":"bottom","toNode":"d93719d6c23f07fb","toSide":"top"},
+		{"id":"f8b5f3139a710013","fromNode":"68510b15ce8c09ef","fromSide":"right","toNode":"afa8d1b9c4b1c0c3","toSide":"left"},
+		{"id":"e4ce13f4aabe0082","fromNode":"afa8d1b9c4b1c0c3","fromSide":"right","toNode":"8b5bf0b7c2410192","toSide":"left"},
+		{"id":"8457527a77f34f11","fromNode":"8b5bf0b7c2410192","fromSide":"right","toNode":"60ce3e33053eeb18","toSide":"left"},
+		{"id":"6a042ac64abdc817","fromNode":"60ce3e33053eeb18","fromSide":"right","toNode":"616713bba2d2b23d","toSide":"left"},
+		{"id":"b42e0ad9c26618f1","fromNode":"5a092a99f635e090","fromSide":"right","toNode":"68510b15ce8c09ef","toSide":"left"},
+		{"id":"21edfc0bd487b123","fromNode":"4bf8b02f0dc5321b","fromSide":"right","toNode":"f14ab3dbb2ea362b","toSide":"left"}
+	]
+}

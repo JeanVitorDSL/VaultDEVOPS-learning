@@ -1,0 +1,263 @@
+{
+  "main": {
+    "id": "3333134a0ce65c20",
+    "type": "split",
+    "children": [
+      {
+        "id": "89a91bad28d45ebc",
+        "type": "tabs",
+        "dimension": 13.600525624178712,
+        "children": [
+          {
+            "id": "5c77bd0cc5318b34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Doc/Ideology for studies/How will i do my studies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "How will i do my studies"
+            }
+          }
+        ]
+      },
+      {
+        "id": "29ce489b28718314",
+        "type": "tabs",
+        "dimension": 86.39947437582128,
+        "children": [
+          {
+            "id": "ee1bee95e53d39a5",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "My roadmap.canvas",
+                "viewState": {
+                  "x": 125.63756132133722,
+                  "y": 44.940856657656695,
+                  "zoom": -1.5466109146489588
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "My roadmap"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8144b708ccaf0944",
+    "type": "split",
+    "children": [
+      {
+        "id": "92badf8c1935696a",
+        "type": "tabs",
+        "dimension": 20.222446916076844,
+        "children": [
+          {
+            "id": "c09758aee3a72bc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Doc/DevOps Fundamentals/1 What should I study in general for DevOps..md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1 What should I study in general for DevOps."
+            }
+          }
+        ]
+      },
+      {
+        "id": "d403b114db9019c0",
+        "type": "tabs",
+        "dimension": 79.77755308392315,
+        "children": [
+          {
+            "id": "19ef3fccb43bb043",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "00bb86eaf60697bf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "dc395ae5a5796765",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 354.5
+  },
+  "right": {
+    "id": "29f4256c7c68e64a",
+    "type": "split",
+    "children": [
+      {
+        "id": "010f87af5cc0f8ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcb56ff0136eff46",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Ideology for studies/How will i do my studies.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para How will i do my studies"
+            }
+          },
+          {
+            "id": "3419bcd6229e8bd1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Ideology for studies/How will i do my studies.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para How will i do my studies"
+            }
+          },
+          {
+            "id": "38b90f6cef3cc4cb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "445221fc5a28cb7d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "970d55502a689701",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Ideology for studies/How will i do my studies.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de How will i do my studies"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "ee1bee95e53d39a5",
+  "lastOpenFiles": [
+    "Programming/Data structure and algorithm in Golang.md",
+    "My roadmap.canvas",
+    "Doc/Ideology for studies/How will i do my studies.md",
+    "Doc/Ideology for studies/Start.md",
+    "Sem título.canvas",
+    "Sem título.base",
+    "Programming/1 I take Golang leanguage for loarning..md",
+    "Operation System/1 All i need in Operating Systems..md",
+    "Operation System/FreeBSD.md",
+    "Operation System/IOS.md",
+    "Operation System/Windows.md",
+    "Operation System/Linux Fundamentals.md",
+    "Doc/DevOps Fundamentals/1 What should I study in general for DevOps..md",
+    "Doc/DevOps Fundamentals/APIs & Integration.md",
+    "Doc/DevOps Fundamentals/Agile & Team Work.md",
+    "Doc/DevOps Fundamentals/Version Control (Git).md",
+    "Doc/DevOps Fundamentals/Software Delivery & CI CD.md",
+    "Doc/DevOps Fundamentals",
+    "Programming/Other learning i need in programing leanguage.md",
+    "Operation System",
+    "Programming",
+    "Doc/Ideology for studies",
+    "Doc",
+    "Sem título 1.canvas",
+    "Sem título 2.canvas",
+    "2026-02-02.md"
+  ]
+}
