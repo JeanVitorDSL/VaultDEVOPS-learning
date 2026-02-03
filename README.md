@@ -1,176 +1,265 @@
-## 📄 License
+# 📚 DevOps Learning Journey - Study Vault
 
-This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for details.
+> **Um repositório vivo de estudos para me tornar DevOps Engineer Junior**  
+> Vault estruturado no Obsidian com roadmap visual, notas conectadas e evolução contínua.
 
----
-
-# 📚 DevOps & Programming Study Vault (Obsidian)
-
-Este repositório é um **vault de estudos estruturado para Obsidian**, focado em **DevOps, Sistemas Operacionais e Programação**, organizado no formato de **roadmap + notas conectadas**.
-
-O objetivo não é apenas armazenar conteúdo, mas criar um **sistema de aprendizado**, permitindo evolução contínua, revisões rápidas e visão clara do progresso técnico. 
-PS: Repósitorio em construção!
----
-
-## 🎯 Objetivo do Repositório
-
-- Centralizar estudos técnicos em um único lugar
-- Organizar conhecimento por **roadmaps**, não por arquivos soltos
-- Facilitar revisões e conexões entre conceitos
-- Servir como base sólida para carreira em **DevOps / Infra / Software Engineering**
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Obsidian](https://img.shields.io/badge/Obsidian-Powered-7C3AED)](https://obsidian.md)
+[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)](https://github.com/JeanVitorDSL/VaultDEVOPS-learning)
 
 ---
 
-## 🧠 Estrutura do Vault
+## 🎯 Sobre Este Projeto
 
-A estrutura é baseada em **notas HUB** (mapas principais) que apontam para notas mais específicas.
+Este repositório documenta minha **jornada de estudos para me tornar DevOps Engineer Junior**. Não é apenas uma coleção de anotações — é um **sistema de aprendizado estruturado** que evolui continuamente com meus estudos.
 
-Exemplo de organização:
+### 🚀 Objetivos Principais
 
-Doc/
+- **Demonstrar competências técnicas** em DevOps, Infraestrutura e Desenvolvimento
+- **Documentar o progresso** de forma transparente e organizada
+- **Criar um roadmap claro** do iniciante ao profissional júnior
+- **Facilitar revisões** e conexões entre conceitos técnicos
+- **Construir portfólio técnico** baseado em conhecimento consolidado
 
-├Doc/
+### 📊 Status Atual
 
-├── DevOps Fundamentals/
+🔄 **Repositório em construção contínua**  
+Este é um projeto de longo prazo que reflete meu aprendizado diário. Novos conteúdos, refinamentos e conexões são adicionados regularmente.
 
-│ ├── 1 What should I study in general for DevOps.md
+---
 
-│ ├── Agile & Team Work.md
+## 🗺️ Estrutura do Vault
 
-│ ├── APIs & Integration.md
+O repositório está organizado em **notas HUB** (mapas de conhecimento) que se conectam a tópicos específicos, criando uma rede de aprendizado.
 
-│ ├── Software Delivery & CI CD.md
-
-│ └── Version Control (Git).md
+```
+VaultDEVOPS-learning/
 │
-├── Operating System/
-
-│ ├── 1 All I need in Operating Systems.md
-
-│ ├── Linux Fundamentals.md
-
-│ ├── Windows.md
-
-│ ├── FreeBSD.md
-
-│ └── iOS.md
+├── 📂 Doc/
+│   ├── DevOps Fundamentals/
+│   │   ├── 1 What should I study in general for DevOps.md
+│   │   ├── Agile & Team Work.md
+│   │   ├── APIs & Integration.md
+│   │   ├── Software Delivery & CI CD.md
+│   │   └── Version Control (Git).md
+│   │
+│   ├── Operating System/
+│   │   ├── 1 All I need in Operating Systems.md
+│   │   ├── Linux Fundamentals.md
+│   │   ├── Windows.md
+│   │   ├── FreeBSD.md
+│   │   └── iOS.md
+│   │
+│   └── Ideology for Studies.md
 │
-├── Programming/
-
-│ ├── 1 I chose Golang as my learning language.md
-
-│ └── Data Structures and Algorithms.md
+├── 📂 Programming/
+│   ├── 1 I chose Golang as my learning language.md
+│   └── Data Structures and Algorithms.md
 │
-├── Ideology for Studies.md
+├── 🗺️ My roadmap.canvas        ← **PONTO DE PARTIDA**
+├── 📄 README.md
+└── 📜 LICENSE
+```
 
-└── My roadmap.canvas
+### 🧠 Metodologia de Estudo
+
+O vault utiliza o conceito de **notas interconectadas**:
+
+1. **Notas HUB**: Visões gerais de grandes áreas (`1 ...`)
+2. **Notas Específicas**: Detalhamento de conceitos individuais
+3. **Roadmap Visual**: Canvas que conecta todos os tópicos
+4. **Links Bidirecionais**: Navegação intuitiva entre conceitos relacionados
 
 ---
 
-## 🗺️ Roadmap (Canvas)
+## 🎨 Roadmap Visual (Canvas)
 
-O arquivo **`My roadmap.canvas`** é o **ponto central do repositório**.
+O arquivo **`My roadmap.canvas`** é o **coração deste repositório**.
 
-Ele funciona como:
-- Visão geral do aprendizado
-- Mapa de navegação entre áreas
-- Guia de estudo de longo prazo
+### O que é o Canvas?
 
-⚠️ **Não é um arquivo de conteúdo**, e sim um **mapa visual** que linka para as notas reais.
+- 🗺️ Mapa visual do aprendizado completo
+- 🔗 Conexões entre áreas de conhecimento
+- 📍 Guia de navegação estratégica
+- 📈 Acompanhamento de progresso
+
+**⚠️ Importante:** O canvas não contém conteúdo diretamente — ele organiza e conecta as notas de estudo.
 
 ---
 
-## ⭐ Uso Recomendado: Obsidian (FORTEMENTE)
+## ⚙️ Como Usar Este Repositório
 
-Este repositório foi **pensado para ser usado no Obsidian**.
+### ⭐ Método Recomendado: Obsidian
 
-### Por quê Obsidian?
-- Suporte nativo a **Canvas**
-- Links bidirecionais (`[[nota]]`)
-- Visualização de grafos
-- Ideal para roadmaps e conhecimento conectado
+Este vault foi **projetado especificamente para Obsidian**.
 
-### Como usar no Obsidian
+#### Por que Obsidian?
 
-1. Instale o Obsidian  
-   👉 https://obsidian.md
+✅ Suporte nativo a **Canvas**  
+✅ **Links bidirecionais** automáticos (`[[nota]]`)  
+✅ **Visualização em grafo** de conhecimento  
+✅ **Markdown avançado** com plugins  
+✅ Ideal para roadmaps e aprendizado conectado
 
-2. Clone este repositório:
+#### Configuração Rápida
+
+1. **Instale o Obsidian**  
+   👉 [obsidian.md](https://obsidian.md)
+
+2. **Clone o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/seu-repo.git
+   git clone https://github.com/JeanVitorDSL/VaultDEVOPS-learning.git
+   ```
 
-3. Abra o Obsidian
+3. **Abra no Obsidian**
+   - Abra o Obsidian
+   - Clique em **"Open folder as vault"**
+   - Selecione a pasta clonada
 
-.  Clique em Open folder as vault
+4. **Comece pelo roadmap**
+   - Abra `My roadmap.canvas`
+   - Este é seu **START HERE**
 
-.  Selecione a pasta do repositório
+---
 
-4. Abra o arquivo:
-  My roadmap.canvas
-Pronto. Esse é o START HERE do projeto.
+### 💻 Alternativa: VS Code
 
-💻 Alternativa: Usar no VS Code
+É possível usar o repositório no VS Code, mas **com limitações significativas**.
 
-É possível usar este repositório no VS Code, porém com limitações.
+#### Extensões Recomendadas
 
-Requisitos recomendados:
+- **Markdown Preview Enhanced**
+- **Foam** (para links wiki-style)
 
-Extensão Markdown Preview Enhanced
+#### ⚠️ Limitações
 
-Extensão Foam ou similar (opcional)
+❌ Canvas não é renderizado  
+❌ Perda da experiência visual do roadmap  
+❌ Links entre notas funcionam apenas como navegação de arquivos
 
-Limitações no VS Code:
+**Recomendação:** Use VS Code apenas para **edição rápida ou leitura**. Para estudar, use Obsidian.
 
-Canvas não é renderizado visualmente
+---
 
-Links funcionam apenas como navegação de arquivos
+## 📖 Fluxo de Estudo Recomendado
 
-Perde-se a principal vantagem do roadmap visual
+```
+1. Abra My roadmap.canvas
+   ↓
+2. Escolha uma área (DevOps, OS, Programming)
+   ↓
+3. Leia a nota HUB (1 ...)
+   ↓
+4. Aprofunde nos subtópicos específicos
+   ↓
+5. Volte ao roadmap para contexto geral
+   ↓
+6. Repita o processo em outras áreas
+```
 
-👉 Use VS Code apenas para leitura ou edição rápida
-👉 Para estudar de verdade, use Obsidian
+---
 
-📌 Como Estudar com Este Vault
+## 🎓 Áreas de Conhecimento
 
-Sugestão de fluxo:
+### 🔧 DevOps Fundamentals
+- Controle de versão (Git/GitHub)
+- CI/CD e entrega contínua
+- Metodologias Ágeis e trabalho em equipe
+- APIs e integração de sistemas
 
-Comece pelo My roadmap.canvas
+### 💻 Operating Systems
+- Linux (foco principal)
+- Windows Server
+- FreeBSD
+- Conceitos fundamentais de SO
 
-Entenda a visão geral
+### 🧑‍💻 Programming
+- Golang (linguagem escolhida)
+- Estruturas de dados e algoritmos
+- Boas práticas de desenvolvimento
 
-Clique em uma área (ex: Programming, OS, DevOps)
+### 🔮 Próximos Tópicos (Roadmap)
+- ☁️ Cloud Computing (AWS/Azure/GCP)
+- 🐳 Containers e Docker
+- ☸️ Kubernetes
+- 📊 Monitoring e Observabilidade
+- 🔐 Security e DevSecOps
 
-Estude uma nota HUB (1 ...)
+---
 
-Aprofunde nos subtópicos
+## 🌱 Filosofia do Projeto
 
-Volte ao roadmap sempre que precisar de contexto
+Este repositório **não é**:
+- ❌ Um curso fechado
+- ❌ Um checklist estático
+- ❌ Uma cópia de documentação oficial
 
-🧩 Filosofia do Projeto
+Este repositório **é**:
+- ✅ Um sistema vivo de aprendizado
+- ✅ Um reflexo da minha jornada técnica
+- ✅ Uma base sólida para crescimento contínuo
+- ✅ Uma ferramenta de revisão e consolidação
 
-Não é um curso
+---
 
-Não é um checklist fechado
+## 🎯 Público-Alvo
 
-É um sistema vivo de aprendizado
+Este vault pode ser útil para:
 
-Pode (e deve) evoluir com o tempo
+- 🎓 **Estudantes de TI** começando em DevOps
+- 🚀 **Iniciantes em DevOps** buscando estrutura
+- 💼 **Profissionais de Infra/Cloud** em transição
+- 🧑‍💻 **Desenvolvedores** que querem visão sistêmica
+- 📚 **Autodidatas** que preferem aprendizado conectado
 
-🚀 Público-Alvo
+---
 
-Estudantes de TI
+## 📜 Licença
 
-Iniciantes em DevOps
+Este projeto está licenciado sob a **MIT License**.
 
-Profissionais de Infra / Cloud
+### O que isso significa?
 
-Desenvolvedores que querem visão sistêmica
+✅ **Livre para usar** — Clone, estude e adapte como quiser  
+✅ **Livre para modificar** — Crie sua própria versão  
+✅ **Livre para compartilhar** — Ajude outros estudantes  
+✅ **Sem garantias** — Fornecido "como está" para fins educacionais
 
-📄 Licença
+Para mais detalhes, consulte o arquivo [`LICENSE`](LICENSE).
 
-Este repositório é de uso educacional e pessoal.
-Sinta-se livre para adaptar, clonar e evoluir a estrutura conforme sua necessidade.
+---
 
-Recomendação final:
-👉 Se você quer extrair o máximo deste repositório, use Obsidian.
+## 🤝 Contribuições
+
+Como este é um **repositório pessoal de estudos**, não aceito pull requests diretos. Porém:
+
+- 💡 **Sugestões de tópicos** são bem-vindas via Issues
+- 🐛 **Correções de erros técnicos** podem ser reportadas
+- 🌟 **Compartilhe sua própria versão** — fork e evolua!
+
+---
+
+## 📬 Contato
+
+📧 Entre em contato via [Issues](https://github.com/JeanVitorDSL/VaultDEVOPS-learning/issues) do repositório  
+🔗 [GitHub - JeanVitorDSL](https://github.com/JeanVitorDSL)
+
+---
+
+## 🚀 Próximos Passos
+
+- [ ] Expandir conteúdo de CI/CD
+- [ ] Adicionar estudos de Cloud (AWS)
+- [ ] Criar notas sobre Docker e containers
+- [ ] Documentar projetos práticos
+- [ ] Adicionar certificações obtidas
+
+---
+
+<div align="center">
+
+**⭐ Se este repositório te ajudou de alguma forma, considere dar uma estrela!**
+
+**📚 Bons estudos e boa sorte na sua jornada DevOps!**
+
+</div>
