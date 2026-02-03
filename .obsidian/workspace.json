@@ -4,46 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "89a91bad28d45ebc",
-        "type": "tabs",
-        "dimension": 13.600525624178712,
-        "children": [
-          {
-            "id": "5c77bd0cc5318b34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Doc/Ideology for studies/How will i do my studies.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "How will i do my studies"
-            }
-          }
-        ]
-      },
-      {
         "id": "29ce489b28718314",
         "type": "tabs",
-        "dimension": 86.39947437582128,
         "children": [
           {
             "id": "ee1bee95e53d39a5",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "My roadmap.canvas",
-                "viewState": {
-                  "x": 125.63756132133722,
-                  "y": 44.940856657656695,
-                  "zoom": -1.5466109146489588
-                }
+                "file": "Operation System/Linux/Linux Fundamentals.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "My roadmap"
+              "icon": "lucide-file",
+              "title": "Linux Fundamentals"
             }
           }
         ]
@@ -87,7 +62,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -125,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "29f4256c7c68e64a",
@@ -233,23 +209,27 @@
   },
   "active": "ee1bee95e53d39a5",
   "lastOpenFiles": [
-    "Programming/Data structure and algorithm in Golang.md",
-    "My roadmap.canvas",
     "Doc/Ideology for studies/How will i do my studies.md",
-    "Doc/Ideology for studies/Start.md",
-    "Sem título.canvas",
-    "Sem título.base",
+    "Operation System/Linux/Linux Fundamentals.md",
+    "Operation System/Windows",
+    "Operation System/IOS",
+    "Operation System/FreeBSD",
+    "Operation System/Linux",
+    "Operation System/Windows/Windows.md",
+    "Programming/Data structure and algorithm in Golang.md",
     "Programming/1 I take Golang leanguage for loarning..md",
+    "Operation System/IOS/IOS.md",
+    "Operation System/FreeBSD/FreeBSD.md",
     "Operation System/1 All i need in Operating Systems..md",
-    "Operation System/FreeBSD.md",
-    "Operation System/IOS.md",
-    "Operation System/Windows.md",
-    "Operation System/Linux Fundamentals.md",
-    "Doc/DevOps Fundamentals/1 What should I study in general for DevOps..md",
-    "Doc/DevOps Fundamentals/APIs & Integration.md",
-    "Doc/DevOps Fundamentals/Agile & Team Work.md",
+    "Doc/Ideology for studies/Start.md",
     "Doc/DevOps Fundamentals/Version Control (Git).md",
     "Doc/DevOps Fundamentals/Software Delivery & CI CD.md",
+    "Doc/DevOps Fundamentals/APIs & Integration.md",
+    "Doc/DevOps Fundamentals/Agile & Team Work.md",
+    "Doc/DevOps Fundamentals/1 What should I study in general for DevOps..md",
+    "My roadmap.canvas",
+    "Sem título.canvas",
+    "Sem título.base",
     "Doc/DevOps Fundamentals",
     "Programming/Other learning i need in programing leanguage.md",
     "Operation System",
