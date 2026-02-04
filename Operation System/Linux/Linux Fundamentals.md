@@ -1,49 +1,143 @@
 
 ---
 
-# ***O que é o Kernel Linux?***
+# **O que é o Kernel Linux?**
 
-Kernel linux é a base, como se fosse o motor de um carro, ele é igual em todas as distribuições linux, usando de comparativo temos os mais famosos sendo o _Linux Mint, Linux Ubuntu e o Linux Debian_ que, tem o mesmo mortor (Kernel) mudando somente "configurações adicionais", para atingir seus públicos específicos e ganhar seu espaço no mundo linux, nesse sentido dos carros o motor sendo o mesmo muda unicamente a carroceria e suas tecnologias dentro do veículo. 
+O **Kernel Linux** é a base do sistema operacional, funcionando como o **motor de um carro**. Ele é o mesmo projeto em todas as distribuições Linux. Usando como comparativo distribuições populares como **Linux Mint, Ubuntu e Debian**, todas utilizam o mesmo “motor” (o Kernel Linux), mudando apenas **configurações, versões, patches e ferramentas adicionais** para atender públicos e propósitos diferentes.
 
-O kernel linux é oque inicia e da o bot no computador, é que os softwares e sistemas visuais interagem para comunicar com o hardware. Ele descide quem usa a **CPU, memória, disco, rede** e o que é permitido ou negado pelo sistema. O kernel **não** executa aplicações, ele que coordena a execução.
+Seguindo a analogia dos carros: o **motor é o mesmo**, mas mudam a **carroceria**, os **recursos internos** e as **tecnologias embarcadas**.
 
-Existem dois mundos dentro de um sistema operacional, usando o linux como base podemos explicar esses dois mundo sendo eles o 
-	 **Kernel vs User Spcace**
+---
 
-O kernel SEMPRE ira receber System call dos softwares para que possam ser usados o hardware. Um programa **não pode acessar hardware diretamente**, por isso ele sempre vai fazer uma **system call** para o kernel.
+## Função do Kernel Linux
 
-Exemplo mental da linha de ações.
+O kernel é carregado durante o processo de boot e, a partir desse ponto, **assume o controle do sistema**. Ele é responsável por permitir que softwares e interfaces visuais se comuniquem com o hardware.
 
-ls → syscall → kernel → disco → kernel → ls → tela
+O kernel decide:
 
-#### O kernel funciona como uma API
+- Quem usa a **CPU**
+    
+- Quanta **memória** pode ser utilizada
+    
+- Como o **disco** é acessado
+    
+- Como a **rede** funciona
+    
+- O que é **permitido ou negado** pelo sistema
+    
 
-O kernel é uma APi estável exposta via:
+O kernel **não executa aplicações** diretamente. Ele **coordena e gerencia a execução** de tudo o que roda no sistema.
 
-- System Calls (Read, write, fork, exec)
-- /proc (informações dinâmicas)
-- /sys (controle do sistema)
-Tydi que o docker, Kubernetes e systemd fazem:
+---
 
-	É chamar funcionalidades do Kernel
-nada realmente mágico. 
+## Kernel Space vs User Space
 
+Dentro de um sistema operacional Linux existem dois mundos bem definidos:
 
-Kernel em si trabalha com processos, sendo a lógica básica do kernel.
+### **Kernel Space**
 
-Um container ou serviço, software e etc criam processos, esses processos tem um:
+- Onde o kernel roda
+    
+- Acesso total ao hardware
+    
+- Falhas aqui podem derrubar o sistema inteiro
+    
 
-- PID
-- Espaço de memória 
-- Permiss~pes
-- Estado (Running, Sleeping, Zombie)
+### **User Space**
 
-Containers = Processos + isolamento (kernel puro)
+- Onde aplicações e serviços rodam
+    
+- Acesso restrito ao hardware
+    
+- Falhas aqui afetam apenas o processo
+    
 
-Gerenciamento de CPU (Scheduler)
+Um programa **não pode acessar o hardware diretamente**. Sempre que precisa de CPU, memória, disco ou rede, ele faz uma **system call** para o kernel.
 
-O kernel decide qual processo roda do sistema, quanto tempo e em qual core, resolvendo a  concorrência, fairness e prioridades
+---
 
+## Exemplo mental do fluxo de execução
+
+`ls → system call → kernel → disco → kernel → ls → tela`
+
+O comando `ls` solicita ao kernel acesso ao sistema de arquivos.  
+O kernel valida, acessa o disco e devolve o resultado ao processo, que então exibe a saída na tela.
+
+---
+
+## O Kernel funciona como uma API
+
+O kernel pode ser entendido como uma **API estável** exposta por meio de:
+
+- **System Calls** (`read`, `write`, `fork`, `exec`)
+    
+- **/proc** (informações dinâmicas sobre processos e sistema)
+    
+- **/sys** (interface de controle do kernel e do hardware)
+    
+
+Tudo o que ferramentas como **Docker**, **Kubernetes** e **systemd** fazem é **chamar funcionalidades do kernel**.  
+Não existe mágica — apenas uso avançado das capacidades do kernel.
+
+---
+
+## Processos: a lógica central do Kernel
+
+O kernel trabalha fundamentalmente com **processos**.
+
+Todo software, serviço ou container cria processos, e cada processo possui:
+
+- **PID** (Process ID)
+    
+- **Espaço de memória isolado**
+    
+- **Permissões**
+    
+- **Estado** (Running, Sleeping, Zombie, etc.)
+    
+
+---
+
+## Containers e o Kernel
+
+> **Containers = Processos + isolamento (kernel puro)**
+
+Um container não é uma VM. Ele é apenas um conjunto de processos isolados, utilizando recursos nativos do kernel para garantir separação e controle.
+
+---
+
+## Gerenciamento de CPU (Scheduler)
+
+O kernel possui um **scheduler**, responsável por:
+
+- Decidir **qual processo roda**
+    
+- **Quanto tempo** ele roda
+    
+- **Em qual core** da CPU
+    
+- Resolver **concorrência**
+    
+- Garantir **fairness** e **prioridades**
+    
+
+Isso permite que múltiplos processos aparentem rodar simultaneamente, mesmo compartilhando recursos limitados.
+
+Em devops muitas tecnologias como kubernets, docker e nginx são na verdade processos rodando nós hardware dos computador.
+
+---
+
+## Gerenciamento de memória RAM
+
+O kernel gerencia os recursos do Linux em geral, incluindo um dos principais e mais importantes sendo a memória RAM, decidindo quantos um processo usa, isolando e usando swap quando necessário e evita que um processo use memória ou roube de um outro processo e o kernel também engana os processos fazendo eles crerem que tem memória infinita livre.
+
+Em resumo o kernel gerencia: 
+
+- Quantos um processo usa de memória RAM.
+- Isola a memória usada pelo processo.
+- Coloca memória SWAP em funcionamento caso necessário.
+- Divide a memória de cada processo para não ter conflitos.
+- E engana os processos falando que tem memória infinita.
 
 ---
 O que é o GNU?
